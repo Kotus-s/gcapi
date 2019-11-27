@@ -1,6 +1,6 @@
 {
     "git": {
-      "commitMessage": ":rocket: Deploying v${version} release",
+      "commitMessage": ":bookmark: Deploying v${version} release",
       "requireCleanWorkingDir": true,
       "tagAnnotation": "Release v${version}",
       "tagName": "v${version}"
