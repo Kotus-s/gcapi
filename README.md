@@ -21,6 +21,9 @@
   <a href="https://github.com/Kotus-s/gcapi/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
+  <a href="https://www.npmjs.com/package/gcapi" target="_blank">
+    <img alt="npm" src="https://img.shields.io/npm/dm/gcapi">
+  </a>
 </p>
 
 > This package is simply a wrapper to used our API from [https://g-ca.fr/](https://g-ca.fr/)

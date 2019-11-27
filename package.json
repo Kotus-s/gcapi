@@ -5,7 +5,7 @@
   "scripts": {
     "lint": "eslint .",
     "test": "npm run lint && mocha",
-    "release": "release-it --ci"
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
