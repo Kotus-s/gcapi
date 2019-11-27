@@ -1,13 +1,15 @@
 {
   "name": "gcapi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Wrapper for Game Creators Area's API",
   "scripts": {
     "lint": "eslint .",
     "test": "npm run lint && mocha",
     "release": "release-it --ci"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kotus-s/gcapi.git"
