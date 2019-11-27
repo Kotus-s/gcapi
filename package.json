@@ -1,0 +1,41 @@
+{
+  "name": "gcapi",
+  "version": "0.0.1",
+  "description": "Wrapper for Game Creators Area's API",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kotus-s/gcapi.git"
+  },
+  "keywords": [
+    "wrapper",
+    "api",
+    "gca"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "Kotus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kotus-s/gcapi/issues"
+  },
+  "homepage": "https://github.com/Kotus-s/gcapi#readme",
+  "devDependencies": {
+    "eslint": "^6.7.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "lib/"
+  ],
+  "dependencies": {
+    "mocha": "^6.2.2"
+  }
+}
