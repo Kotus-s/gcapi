@@ -49,6 +49,20 @@ Installation is done using the
 $ npm install gcapi
 ```
 
+## Quick Start
+
+```javascript
+const gca = require('gcapi');
+
+const gca = new GCApi({
+  apiKey: process.env.API_KEY',
+});
+
+gca.getUserExperience(137329125223301130)
+  .then((r) => r.sum)
+  .catch((e) => console.error(e));
+```
+
 ## Author
 
 👤 **Kotus**
