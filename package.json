@@ -4,7 +4,8 @@
   "description": "Wrapper for Game Creators Area's API",
   "scripts": {
     "lint": "eslint .",
-    "test": "npm run lint && mocha"
+    "test": "npm run lint && mocha",
+    "release": "release-it --ci"
   },
   "repository": {
     "type": "git",
@@ -27,7 +28,8 @@
   "devDependencies": {
     "eslint": "^6.7.1",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint-plugin-import": "^2.18.2",
+    "release-it": "12.4.3"
   },
   "files": [
     "LICENSE",
