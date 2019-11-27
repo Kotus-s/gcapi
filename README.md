@@ -59,7 +59,7 @@ const gca = new GCApi({
 });
 
 gca.getUserExperience(137329125223301130)
-  .then((r) => r.sum)
+  .then((r) => console.log(r.sum))
   .catch((e) => console.error(e));
 ```
 
