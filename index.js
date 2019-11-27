@@ -1,1 +1,1 @@
-module.exports.GCApi = require('./lib/gcapi');
+module.exports = require('./lib/gcapi');
