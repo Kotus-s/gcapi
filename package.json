@@ -7,12 +7,9 @@
     "test": "npm run lint && mocha",
     "release": "release-it --ci"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kotus-s/gcapi.git"
+    "url": "git://github.com/Kotus-s/gcapi.git"
   },
   "keywords": [
     "wrapper",
