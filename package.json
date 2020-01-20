@@ -6,7 +6,8 @@
     "lint": "eslint .",
     "test": "mocha",
     "coverage": "nyc npm run mocha",
-    "release": "release-it"
+    "release": "release-it",
+    "docs:build": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose"
   },
   "repository": {
     "type": "git",
@@ -27,11 +28,14 @@
   },
   "homepage": "https://github.com/Kotus-s/gcapi#readme",
   "devDependencies": {
-    "eslint": "^6.7.1",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
+    "docdash": "^1.1.1",
+    "eslint": "~6.8.0",
+    "eslint-config-airbnb-base": "~14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "jsdoc": "~3.6.3",
+    "minami": "^1.2.3",
     "nyc": "^14.1.1",
-    "release-it": "12.4.3"
+    "release-it": "~12.4.3"
   },
   "files": [
     "LICENSE",
