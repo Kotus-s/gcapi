@@ -13,14 +13,14 @@ script:
   - npm run lint
   - npm run docs:build
 before_deploy:
-  - export LASTEST_TAG="$(npm run current-version --silent)"
+  - export LATEST_TAG="$(npm run current-version --silent)"
 cache:
   directories:
     - node_modules
 
 deploy:
   provider: pages
-  local_dir: "docs/gcapi/$LASTEST_TAG"
+  local_dir: "docs/gcapi/$LATEST_TAG"
   skip_cleanup: true
   token: $GITHUB_TOKEN
   verbose: true
