@@ -6,7 +6,7 @@
     "lint": "eslint .",
     "test": "mocha",
     "coverage": "nyc npm run mocha",
-    "release": "release-it",
+    "release": "release-it --verbose",
     "docs:build": "node_modules/.bin/jsdoc --configure .jsdoc.json --verbose",
     "current-version": "node -e \"console.log(require('./package.json').version)\""
   },
