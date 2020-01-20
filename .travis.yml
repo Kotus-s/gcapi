@@ -1,16 +1,28 @@
 language: node_js
+os: linux
 node_js:
-  - "10"
-  - "11"
-  - "12"
+  - "stable"
 before_install:
-  - "npm install -g npm@latest"
+  - npm install -g npm@latest
+  - npm update
 install:
   - npm install eslint
   - npm install eslint-plugin-import
   - npm install eslint-config-airbnb-base
 script:
   - npm run lint
+  - npm run docs:build
+before_deploy:
+  - export LASTEST_TAG="$(npm run current-version --silent)"
 cache:
   directories:
     - node_modules
+
+deploy:
+  provider: pages
+  local_dir: "docs/gcapi/$LASTEST_TAG"
+  skip_cleanup: true
+  token: $GITHUB_TOKEN
+  verbose: true
+  on:
+    branch: master
