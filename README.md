@@ -57,11 +57,11 @@ const gca = require('gcapi');
 const gca = new GCApi({
   apiKey: process.env.API_KEY',
 });
-
-gca.getUserExperience(137329125223301130)
-  .then((r) => console.log(r.sum))
-  .catch((e) => console.error(e));
 ```
+
+## Documentation
+
+Find the full documentation [here](https://kotus-s.github.io/gcapi/)
 
 ## Author
 
