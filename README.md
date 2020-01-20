@@ -52,7 +52,7 @@ $ npm install gcapi
 ## Quick Start
 
 ```javascript
-const gca = require('gcapi');
+const GCApi = require('gcapi');
 
 const gca = new GCApi({
   apiKey: process.env.API_KEY',
