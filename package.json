@@ -29,14 +29,15 @@
   },
   "homepage": "https://github.com/Kotus-s/gcapi#readme",
   "devDependencies": {
-    "docdash": "^1.1.1",
+    "docdash": "^1.2.0",
     "eslint": "~6.8.0",
     "eslint-config-airbnb-base": "~14.0.0",
     "eslint-plugin-import": "^2.20.0",
     "jsdoc": "~3.6.3",
     "minami": "^1.2.3",
-    "nyc": "^14.1.1",
-    "release-it": "~12.4.3"
+    "nyc": "^15.0.0",
+    "release-it": "~12.4.3",
+    "mocha": "^7.0.1"
   },
   "files": [
     "LICENSE",
@@ -45,7 +46,6 @@
     "lib/"
   ],
   "dependencies": {
-    "mocha": "^6.2.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.5",
     "url": "^0.11.0"
