@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>Home - Documentation</title>
+    
+    
+    <script src="scripts/prettify/prettify.js"></script>
+    <script src="scripts/prettify/lang-css.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
+    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
+    <script src="scripts/nav.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger" class="navicon-button x">
+  <div class="navicon"></div>
+</label>
+
+<label for="nav-trigger" class="overlay"></label>
+
+<nav >
+    
+    <input type="text" id="nav-search" placeholder="Search" />
+    
+    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-GCApi.html">GCApi</a><ul class='methods'><li data-type='method'><a href="module-GCApi.html#~setDefaultsOptions">setDefaultsOptions</a></li><li data-type='method'><a href="module-GCApi.html#~makeUri">makeUri</a></li><li data-type='method'><a href="module-GCApi.html#~makeRequestHeader">makeRequestHeader</a></li><li data-type='method'><a href="module-GCApi.html#~doRequest">doRequest</a></li><li data-type='method'><a href="module-GCApi.html#~createStat">createStat</a></li><li data-type='method'><a href="module-GCApi.html#~updateStats">updateStats</a></li><li data-type='method'><a href="module-GCApi.html#~createShortLink">createShortLink</a></li><li data-type='method'><a href="module-GCApi.html#~getUserExperience">getUserExperience</a></li><li data-type='method'><a href="module-GCApi.html#~addUserExperience">addUserExperience</a></li><li data-type='method'><a href="module-GCApi.html#~getUserWarns">getUserWarns</a></li><li data-type='method'><a href="module-GCApi.html#~createUserWarn">createUserWarn</a></li></ul></li></ul>
+</nav>
+
+<div id="main">
+    
+
+    
+
+
+
+    
+
+
+    <section class="package">
+        <h3>gcapi 0.6.0</h3>		
+    </section>
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <section class="readme usertext">
+        <article><h1 align="center">Welcome to GCApi 👋</h1>
+<p>
+  <a href="https://discord.gg/bjDJJjy" target="_blank">
+    <img alt="Discord GCA" src="https://discordapp.com/api/v6/guilds/223070469148901376/widget.png" />
+  </a>
+  <a href="https://travis-ci.com/Kotus-s/gcapi" target="_blank">
+    <img alt="TravisCI" src="https://travis-ci.com/Kotus-s/gcapi.svg?branch=master" />
+  </a>
+  <a href="https://codeclimate.com/github/Kotus-s/gcapi/maintainability">
+    <img src="https://api.codeclimate.com/v1/badges/a489c1ea485de09ac25a/maintainability" />
+  </a>
+  <a href="https://david-dm.org/Kotus-s/gcapi" title="dependencies status">
+    <img src="https://david-dm.org/Kotus-s/gcapi/status.svg"/>
+  </a>
+  <a href="https://github.com/Kotus-s/gcapi/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/Kotus-s/gcapi" />
+  </a>
+  <a href="https://github.com/carloscuesta/gitmoji" target="_blank">
+    <img alt="gitmoji" src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" />
+  </a>
+  <a href="https://github.com/Kotus-s/gcapi/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://www.npmjs.com/package/gcapi" target="_blank">
+    <img alt="npm" src="https://img.shields.io/npm/dm/gcapi">
+  </a>
+</p>
+<blockquote>
+<p>This package is simply a wrapper to used our API from <a href="https://g-ca.fr/">https://g-ca.fr/</a></p>
+</blockquote>
+<h3>🏠 <a href="https://github.com/Kotus-s/gcapi#readme">Homepage</a></h3>
+<h2>Prerequisites</h2>
+<ul>
+<li>Node.js 0.10 or higher</li>
+</ul>
+<h2>Installation</h2>
+<p>This is a <a href="https://nodejs.org/en/">Node.js</a> module available through the
+<a href="https://www.npmjs.com/">npm registry</a>.</p>
+<p>Before installing, <a href="https://nodejs.org/en/download/">download and install Node.js</a>.
+Node.js 0.10 or higher is required.</p>
+<p>Installation is done using the
+<a href="https://docs.npmjs.com/getting-started/installing-npm-packages-locally"><code>npm install</code> command</a>:</p>
+<pre class="prettyprint source lang-bash"><code>$ npm install gcapi
+</code></pre>
+<h2>Quick Start</h2>
+<pre class="prettyprint source lang-javascript"><code>const GCApi = require('gcapi');
+
+const gca = new GCApi({
+  apiKey: process.env.API_KEY',
+});
+</code></pre>
+<h2>Documentation</h2>
+<p>Find the full documentation <a href="https://kotus-s.github.io/gcapi/">here</a></p>
+<h2>Author</h2>
+<p>👤 <strong>Kotus</strong></p>
+<ul>
+<li>Github: <a href="https://github.com/Kotus-s">@Kotus-s</a></li>
+<li>Discord: Kotus#0001</li>
+</ul>
+<h2>🤝 Contributing</h2>
+<p>Contributions, issues and feature requests are welcome!<br />Feel free to check <a href="https://github.com/Kotus-s/gcapi/issues">issues page</a>.</p>
+<h2>Show your support</h2>
+<p>Give a ⭐️ if this project helped you!</p>
+<h2>📝 License</h2>
+<p>Copyright © 2019 <a href="https://github.com/Kotus-s">Kotus</a>.<br />
+This project is <a href="https://github.com/Kotus-s/gcapi/blob/master/LICENSE">MIT</a> licensed.</p>
+<hr></article>
+    </section>
+
+
+
+
+
+
+    
+    
+</div>
+
+<br class="clear">
+
+<footer>
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Fri Feb 07 2020 20:38:11 GMT+0000 (Coordinated Universal Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+</footer>
+
+<script>prettyPrint();</script>
+<script src="scripts/polyfill.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+<script src="scripts/search.js" defer></script>
+
+
+
+</body>
+</html>
