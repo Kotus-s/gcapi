@@ -35,9 +35,9 @@
     "eslint-plugin-import": "^2.20.0",
     "jsdoc": "~3.6.3",
     "minami": "^1.2.3",
+    "mocha": "^8.0.1",
     "nyc": "^15.0.0",
-    "release-it": "~12.4.3",
-    "mocha": "^7.0.1"
+    "release-it": "^13.6.4"
   },
   "files": [
     "LICENSE",
