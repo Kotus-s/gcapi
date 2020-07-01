@@ -1,6 +1,6 @@
 {
   "name": "gcapi",
-  "version": "0.6.0",
+  "version": "0.7.0-0",
   "description": "Wrapper for Game Creators Area's API",
   "scripts": {
     "lint": "eslint .",
