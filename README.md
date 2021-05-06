@@ -3,22 +3,19 @@
   <a href="https://discord.gg/bjDJJjy" target="_blank">
     <img alt="Discord GCA" src="https://discordapp.com/api/v6/guilds/223070469148901376/widget.png" />
   </a>
-  <a href="https://travis-ci.com/Kotus-s/gcapi" target="_blank">
-    <img alt="TravisCI" src="https://travis-ci.com/Kotus-s/gcapi.svg?branch=master" />
+  <a href="https://travis-ci.com/game-creators-area/gcapi" target="_blank">
+    <img alt="TravisCI" src="https://travis-ci.com/game-creators-area/gcapi.svg?branch=master" />
   </a>
-  <a href="https://codeclimate.com/github/Kotus-s/gcapi/maintainability">
-    <img src="https://api.codeclimate.com/v1/badges/a489c1ea485de09ac25a/maintainability" />
+  <a href="https://david-dm.org/game-creators-area/gcapi" title="dependencies status">
+    <img src="https://david-dm.org/game-creators-area/gcapi/status.svg"/>
   </a>
-  <a href="https://david-dm.org/Kotus-s/gcapi" title="dependencies status">
-    <img src="https://david-dm.org/Kotus-s/gcapi/status.svg"/>
-  </a>
-  <a href="https://github.com/Kotus-s/gcapi/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/Kotus-s/gcapi" />
+  <a href="https://github.com/game-creators-area/gcapi/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/game-creators-area/gcapi" />
   </a>
   <a href="https://github.com/carloscuesta/gitmoji" target="_blank">
     <img alt="gitmoji" src="https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/Kotus-s/gcapi/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/game-creators-area/gcapi/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://www.npmjs.com/package/gcapi" target="_blank">
@@ -28,7 +25,7 @@
 
 > This package is simply a wrapper to used our API from [https://g-ca.fr/](https://g-ca.fr/)
 
-### 🏠 [Homepage](https://github.com/Kotus-s/gcapi#readme)
+### 🏠 [Homepage](https://github.com/game-creators-area/gcapi#readme)
 
 ## Prerequisites
 
@@ -61,18 +58,12 @@ const gca = new GCApi({
 
 ## Documentation
 
-Find the full documentation [here](https://kotus-s.github.io/gcapi/)
+Find the full documentation [here](https://discord.gg/bjDJJjy)
 
-## Author
-
-👤 **Kotus**
-
-* Github: [@Kotus-s](https://github.com/Kotus-s)
-* Discord: Kotus#0001
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Kotus-s/gcapi/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/game-creators-area/gcapi/issues).
 
 ## Show your support
 
@@ -80,7 +71,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2019 [Kotus](https://github.com/Kotus-s).<br />
-This project is [MIT](https://github.com/Kotus-s/gcapi/blob/master/LICENSE) licensed.
+Copyright © 2019 [GCA](https://github.com/game-creators-area/).<br />
+This project is [MIT](https://github.com/game-creators-area/gcapi/blob/master/LICENCE) licensed.
 
 ***
